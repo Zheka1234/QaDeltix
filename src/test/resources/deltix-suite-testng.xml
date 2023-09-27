@@ -1,11 +1,8 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite name="Parser Suite" verbose="1" configfailurepolicy="continue">
-    <test name="test for parser">
+    <test name="test for deltix">
         <groups>
-            <run>
-                <include name="parser"/>
-            </run>
         </groups>
         <classes>
             <class name="com.miskevich.tests.CaseChatTest"/>
